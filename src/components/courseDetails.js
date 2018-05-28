@@ -8,7 +8,7 @@ const CourseDetails = ({ course }) => {
 
   return <div className="col-md-8">
     <h1>{ course.name }</h1>
-    <p>{ course.description }</p>
+    <p>#{ course.id } | { course.description }</p>
   </div>
 }
 
