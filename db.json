@@ -1,19 +1,29 @@
 {
-  "posts": [
+  "courses": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "React course",
+      "description": "Basic sample app in React"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "name": "Node course",
+      "description": "Basic sample app in Node"
+    },
+    {
+      "id": 3,
+      "name": "PHP course",
+      "description": "Basic sample app in PHP"
+    },
+    {
+      "id": 4,
+      "name": "Angular course",
+      "description": "Basic sample app in Angular"
+    },
+    {
+      "id": 5,
+      "name": "Docker course",
+      "description": "Basic usage of Docker"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

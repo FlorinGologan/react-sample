@@ -17,6 +17,8 @@ http://localhost:8080/
 
 It's a full fake REST API with zero coding. 
 
+http://localhost:3000/courses
+
 https://github.com/typicode/json-server
 
 
