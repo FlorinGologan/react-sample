@@ -24,6 +24,31 @@
       "id": 5,
       "name": "Docker course",
       "description": "Basic usage of Docker"
+    },
+    {
+      "id": 6,
+      "name": "React Advanced course",
+      "description": "Lorem ipsum dolor sit amet."
+    },
+    {
+      "id": 7,
+      "name": "PHP Advanced course",
+      "description": "Ut nec gravida enim, in aliquam quam."
+    },
+    {
+      "id": 8,
+      "name": "PHP & OOP course",
+      "description": "Maecenas varius libero vitae dolor laoreet interdum"
+    },
+    {
+      "id": 9,
+      "name": "PHP & Symfony course",
+      "description": "Maecenas id rutrum tellus."
+    },
+    {
+      "id": 10,
+      "name": "Docker Advanced course",
+      "description": "Advanced usage of Docker"
     }
   ]
 }

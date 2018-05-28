@@ -1,3 +1,4 @@
+import _ from 'lodash'
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import axios from 'axios'
@@ -30,10 +31,14 @@ class App extends Component {
   }
 
   render () {
+    const courseSearch = _.debounce((query) => {
+      this.courseSearch(query), 500
+    })
+
     return (
       <div>
         <SearchBar
-          onSearchChange={ query => this.courseSearch(query) }/>
+          onSearchChange={ query => courseSearch(query) }/>
         <div className="row">
           <CourseList
             onCourseSelect={ course => this.setState({ course }) }
